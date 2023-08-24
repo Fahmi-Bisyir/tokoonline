@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Inconsolata&family=Neucha&family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+#myInput{
+    width: 80%;
+    height: 28px;
+    border-color: rgb(111, 105, 105);
+    border-radius: 6px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+   }
+  header{
+    background-color: #333;
+    color: white;
+    padding: 0px;
+  }
+.marquee  {
+    margin-right: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: fixed;
+    color: white;
+  }
+  .marquee  span {
+    display: inline-block;
+    padding-right: 100%;
+    margin-bottom: 3%; 
+    margin-top: 3%;
+    animation: marquee 10s linear infinite;
+  }
+  @keyframes marquee  {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(100%, 0); }
+  }
+  .pembungkus{
+    display: flex;
+    margin-top: 4%;
+  }
+  h2{
+    font-family: Gochi Hand;
+  }
+  .isi{
+    width: 700px;
+    height: 200px;
+    margin-left: 8%;
+  }
+  
+  .pilih {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2%;
+  }
+  
+  .hapus {
+    display: inline-block;
+    margin-left: 520px; /* Jarak antara checkbox dan teks "HAPUS" */
+  }
+  
+  .container-pilih{
+    width: 100%;
+    border-bottom: 4px solid grey;
+    border-radius: 4%;
+    padding: 0;
+    font-family: Inconsolata;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0; 
+  }
+  
+  .chekout{
+     width: 260px;
+     height: 200px;
+     margin-left: 8%;
+     border: 1px solid rgba(150, 141, 141, 0.874);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  } 
+  .promo{
+    width: 200;
+    height: 30px;
+    border-radius: 8%;
+    margin: 4%;
+    border: 2px solid rgb(164, 160, 160);
+  }
+  .promo p {
+    text-align: center;
+    font-family: Neucha;
+  }
+h3{
+    font-family: Inconsolata;
+    color: rgb(149, 144, 144);
+    font-size: 16px;
+    margin-left: 8px;
+}
+.name-chekout-item{
+  display: inline-block;
+  margin-top: 20px;
+}
+#jmlah-barang-keluar{
+  display: inline-block;
+}
+.harga-barang-keluar{
+  display: inline-block;
+}
