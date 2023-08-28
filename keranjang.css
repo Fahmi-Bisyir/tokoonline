@@ -69,10 +69,16 @@
   input[type="checkbox"] {
     margin-right: 0; 
   }
-  
+  #keranjang{
+    width: 400px;
+    display: flex;
+    height: 400px;
+    border: 2px solid black;
+  }
   .chekout{
      width: 260px;
      height: 200px;
+     padding: 10px;
      margin-left: 8%;
      border: 1px solid rgba(150, 141, 141, 0.874);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -87,6 +93,7 @@
   .promo p {
     text-align: center;
     font-family: Neucha;
+    margin-top: 2%;
   }
 h3{
     font-family: Inconsolata;
@@ -94,13 +101,33 @@ h3{
     font-size: 16px;
     margin-left: 8px;
 }
-.name-chekout-item{
-  display: inline-block;
+.Total-barang{
+ display: inline-block;
   margin-top: 20px;
 }
 #jmlah-barang-keluar{
   display: inline-block;
 }
-.harga-barang-keluar{
+#harga-barang-keluar{
   display: inline-block;
+  margin-left: 80px;
+}
+hr{
+  margin: 5% 0;
+}
+.total-harga{
+  display: flex;
+}
+#total-harga-keluar{
+  display: inline-block;
+  margin-left: 100px;
+}
+button{
+  margin: 4% 0;
+  margin-left: 30px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5%;
+  border: none;
+  background-color: aquamarine;
 }
